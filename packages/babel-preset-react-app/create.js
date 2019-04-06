@@ -35,11 +35,7 @@ module.exports = function(api, opts, env) {
     isEnvDevelopment || isEnvProduction
   );
   var isFlowEnabled = validateBoolOption('flow', opts.flow, true);
-  var isTypeScriptEnabled = validateBoolOption(
-    'typescript',
-    opts.typescript,
-    true
-  );
+  var isTypeScriptEnabled = true;
   var areHelpersEnabled = validateBoolOption('helpers', opts.helpers, true);
   var useAbsoluteRuntime = validateBoolOption(
     'absoluteRuntime',
