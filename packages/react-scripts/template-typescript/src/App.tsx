@@ -12,11 +12,11 @@ const App: React.FC = () => {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/power-tools/hub"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn PowerTools
         </a>
       </header>
     </div>
