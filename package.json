@@ -1,5 +1,7 @@
 {
   "private": true,
+  "name": "powertools-react-scripts",
+  "description": "PowerTools Configuration and Scripts for Create React App",
   "workspaces": [
     "packages/*"
   ],
